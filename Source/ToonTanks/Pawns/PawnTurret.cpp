@@ -19,6 +19,8 @@ void APawnTurret::HandleDestruction()
 {
     // Call base pawn class HandleDestruction to play effects.
     Super::HandleDestruction();
+
+    Destroy();
 }
 
 // Called every frame
