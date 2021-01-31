@@ -35,6 +35,8 @@ private:
 	UParticleSystem* DeathParticle;
 	UPROPERTY(EditAnywhere, Category = "Effects")
 	USoundBase* DeathSound;
+	UPROPERTY(EditDefaultsOnly, Category = "Effects")
+	TSubclassOf<UMatineeCameraShake> DeathShake;
 
 public:
 	// Sets default values for this pawn's properties
