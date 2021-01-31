@@ -31,6 +31,8 @@ protected:
 	UPROPERTY(EditDefaultsOnly, BlueprintReadOnly, Category = "Game Loop")
 	int32 StartDelay = 3;
 
+	TArray<FString> LevelArray.In = ["Stage1", "Stage2", "Stage3"]; 
+
 	virtual void BeginPlay() override;
 	UFUNCTION(BlueprintImplementableEvent)
 	void GameStart();
